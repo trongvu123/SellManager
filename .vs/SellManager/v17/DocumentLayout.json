@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dotnet2\\SellManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|D:\\dotnet2\\SellManager\\createorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|solutionrelative:createorderwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|D:\\dotnet2\\SellManager\\createorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|solutionrelative:createorderwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|D:\\dotnet2\\SellManager\\customerlistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|solutionrelative:customerlistwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|d:\\dotnet2\\sellmanager\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|d:\\dotnet2\\sellmanager\\models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|solutionrelative:models\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|D:\\dotnet2\\SellManager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4D37D91-82B7-42BC-BFCC-983F6D2A945F}|SellManager.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "D:\\dotnet2\\SellManager\\Models\\SanPham.cs",
+              "RelativeDocumentMoniker": "Models\\SanPham.cs",
+              "ToolTip": "D:\\dotnet2\\SellManager\\Models\\SanPham.cs",
+              "RelativeToolTip": "Models\\SanPham.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T13:38:34.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\dotnet2\\SellManager\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "D:\\dotnet2\\SellManager\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T13:24:13.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateOrderWindow.xaml.cs",
+              "DocumentMoniker": "D:\\dotnet2\\SellManager\\CreateOrderWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CreateOrderWindow.xaml.cs",
+              "ToolTip": "D:\\dotnet2\\SellManager\\CreateOrderWindow.xaml.cs",
+              "RelativeToolTip": "CreateOrderWindow.xaml.cs",
+              "ViewState": "AQIAAJIAAAAAAAAAAIA3wGsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:16:20.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateOrderWindow.xaml",
+              "DocumentMoniker": "D:\\dotnet2\\SellManager\\CreateOrderWindow.xaml",
+              "RelativeDocumentMoniker": "CreateOrderWindow.xaml",
+              "ToolTip": "D:\\dotnet2\\SellManager\\CreateOrderWindow.xaml",
+              "RelativeToolTip": "CreateOrderWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-01T05:43:01.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\dotnet2\\SellManager\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\dotnet2\\SellManager\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-30T14:50:09.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerListWindow.xaml.cs",
+              "DocumentMoniker": "D:\\dotnet2\\SellManager\\CustomerListWindow.xaml.cs",
+              "RelativeDocumentMoniker": "CustomerListWindow.xaml.cs",
+              "ToolTip": "D:\\dotnet2\\SellManager\\CustomerListWindow.xaml.cs",
+              "RelativeToolTip": "CustomerListWindow.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-30T14:39:58.973Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
