@@ -20,7 +20,7 @@ namespace SellManager
     /// <summary>
     /// Interaction logic for CreateOrderWindow.xaml
     /// </summary>
-    public partial class CreateOrderWindow : Window
+    public partial class CreateOrderWindow : Page
     {
         private readonly QlbanHangContext _context;
         public ObservableCollection<KhachHang> listkhachHangs { get; set; }

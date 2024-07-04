@@ -20,7 +20,7 @@ namespace SellManager
     /// <summary>
     /// Interaction logic for OrderManageWindow.xaml
     /// </summary>
-    public partial class OrderManageWindow : Window
+    public partial class OrderManageWindow : Page
     {
         private readonly QlbanHangContext _context;
         public ObservableCollection<ThanhPho> ListOfThanhPho { get; set; }

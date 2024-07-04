@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <DockPanel>
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Background="#333" Height="50">
+                <Button Content="Customer List" Click="CustomerListButton_Click" Margin="10" />
+                <Button Content="Manage customers" Click="CustomerManageButton_Click" Margin="10" />
+                <Button Content="Search customer" Click="CustomerSearchButton_Click" Margin="10" />
+                <Button Content="Manage orders" Click="OrderManageButton_Click" Margin="10" />
+                <Button Content="Create order" Click="CreateOrderButton_Click" Margin="10" />
 
+            </StackPanel>
+            <Frame Name="MainFrame" NavigationUIVisibility="Hidden" />
+        </DockPanel>
     </Grid>
 </Window>

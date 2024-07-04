@@ -20,7 +20,7 @@ namespace SellManager
     /// <summary>
     /// Interaction logic for CustomerListWindow.xaml
     /// </summary>
-    public partial class CustomerListWindow : Window
+    public partial class CustomerListWindow : Page
     {
         private readonly QlbanHangContext _context;
         public ObservableCollection<ThanhPho> ListOfCategory { get; set; }
@@ -50,6 +50,7 @@ namespace SellManager
             {
                 MaKh = c.MaKh,
                 TenCty = c.TenCty,
+                DiaChi = c.DiaChi,
                 DienThoai = c.DienThoai,
                 MaThanhPho = c.MaThanhPho,  
                 MaThanhPhoNavigation = c.MaThanhPhoNavigation,

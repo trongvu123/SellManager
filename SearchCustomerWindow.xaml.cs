@@ -19,7 +19,7 @@ namespace SellManager
     /// <summary>
     /// Interaction logic for SearchCustomerWindow.xaml
     /// </summary>
-    public partial class SearchCustomerWindow : Window
+    public partial class SearchCustomerWindow : Page
     {
         private readonly QlbanHangContext _context;
 
