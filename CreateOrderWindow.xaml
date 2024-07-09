@@ -31,12 +31,13 @@
                             <Setter Property="ItemsSource" Value="{Binding Path=DataContext.ListOfCategory,
 RelativeSource={RelativeSource FindAncestor,
 AncestorType={x:Type DataGrid}}}"/>
+                            <EventSetter Event="SelectionChanged" Handler="ProductComboBox_SelectionChanged"/>
                         </Style>
                     </DataGridComboBoxColumn.EditingElementStyle>
                 </DataGridComboBoxColumn>
                 <DataGridTextColumn Header="Số lượng" Width="*" Binding="{Binding SoLuong,  UpdateSourceTrigger=PropertyChanged}"/>
-                <DataGridTextColumn Header="Đơn giá" Width="*" Binding="{Binding DonGia}"/>
-                <DataGridTextColumn Header="Thành tiền" Width="*" Binding="{Binding ThanhTien}"/>
+                <DataGridTextColumn Header="Đơn giá" Width="*" Binding="{Binding DonGia}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="Thành tiền" Width="*" Binding="{Binding ThanhTien}" IsReadOnly="True"/>
 
             </DataGrid.Columns>
         </DataGrid>

@@ -45,5 +45,10 @@ namespace SellManager
         {
             MainFrame.Navigate(new CreateOrderWindow());
         }
+
+        private void EditProfileButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new EditProfilePage());
+        }
     }
 }

@@ -74,6 +74,28 @@ namespace SellManager
                 MessageBox.Show($"Error occurred: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
+        private async void ProductComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            try
+            {
+                if (sender is ComboBox comboBox && comboBox.SelectedValue != null)
+                {
+                    var selectedProductId = (int)comboBox.SelectedValue;
+                    var selectedProduct = await _context.SanPhams.FindAsync(selectedProductId);
+
+                    if (selectedProduct != null && DgData.SelectedItem is OrderDetail selectedOrderDetail)
+                    {
+                        selectedOrderDetail.DonGia = (decimal)selectedProduct.DonGia;
+                        selectedOrderDetail.ThanhTien = selectedOrderDetail.SoLuong * (decimal)selectedProduct.DonGia;
+                    }
+                }
+
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
 
         private void DgData_CellEditEnding(object sender, DataGridCellEditEndingEventArgs e)
         {
@@ -133,7 +155,14 @@ namespace SellManager
 
                 // Lưu thay đổi vào cơ sở dữ liệu
                 _context.SaveChanges();
+                // Clear the ComboBox selection
+                cbokhachang.SelectedValue = null;
 
+                // Clear the DataGrid items
+                OrderDetails.Clear();
+
+                // Optionally, reset the order number text box
+                txtMahd.Text = string.Empty;
                 MessageBox.Show("Tạo hóa đơn thành công");
             }
             catch (DbUpdateException dbEx)
