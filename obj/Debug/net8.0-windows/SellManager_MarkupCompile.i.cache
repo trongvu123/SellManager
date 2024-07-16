@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\dotnet2\SellManager\App.xaml
-81947865981
+9497726249
 
-24-1330960474
+322064406912
 239-1298860417
-CreateOrderWindow.xaml;CustomerListWindow.xaml;CustomerManagerWindow.xaml;EditProfilePage.xaml;LoginWindow.xaml;MainWindow.xaml;OrderManageWindow.xaml;SearchCustomerWindow.xaml;
+AdminDashboardPage.xaml;CreateOrderWindow.xaml;CustomerListWindow.xaml;CustomerManagerWindow.xaml;EditProfilePage.xaml;LoginWindow.xaml;MainWindow.xaml;OrderManageWindow.xaml;SearchCustomerWindow.xaml;
 
 True
 

@@ -176,3 +176,5 @@ D:\dotnet2\SellManager\obj\Debug\net8.0-windows\refint\SellManager.dll
 D:\dotnet2\SellManager\obj\Debug\net8.0-windows\SellManager.pdb
 D:\dotnet2\SellManager\obj\Debug\net8.0-windows\SellManager.genruntimeconfig.cache
 D:\dotnet2\SellManager\obj\Debug\net8.0-windows\ref\SellManager.dll
+D:\dotnet2\SellManager\obj\Debug\net8.0-windows\AdminDashboardPage.g.cs
+D:\dotnet2\SellManager\obj\Debug\net8.0-windows\AdminDashboardPage.baml

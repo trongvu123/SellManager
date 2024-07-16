@@ -32,17 +32,37 @@ namespace SellManager
             try
             {
                 var check = _context.NhanViens.Where(nv => nv.MaDn == txtUsername.Text && nv.MatKhau == txtPassword.Password).FirstOrDefault();
-                if (check != null)
+                if (check.status == true)
                 {
-                    NhanVienSession.NhanVien = check;
-                    this.Hide();
-                    MainWindow mainWindow = new MainWindow();
-                    mainWindow.Show();
-                    mainWindow.MainFrame.Navigate(new CustomerListWindow());
+                    MessageBox.Show("Tài khoản đã bị vô hiệu hóa");
                 }
                 else
                 {
-                    MessageBox.Show("Tài khoản hoặc mật khẩu sai");
+                    if (check != null)
+                    {
+                        if(check.isAdmin)
+                        {
+                            AdminDashboardPage adminDashboardPage = new AdminDashboardPage();
+                            this.Hide();
+                    
+                            adminDashboardPage.Show();
+                       
+                        }
+                        else
+                        {
+
+                            NhanVienSession.NhanVien = check;
+                            this.Hide();
+                            MainWindow mainWindow = new MainWindow();
+                            mainWindow.Show();
+                            mainWindow.MainFrame.Navigate(new CustomerListWindow());
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Tài khoản hoặc mật khẩu sai");
+                    }
+
                 }
             }
             catch (Exception ex)

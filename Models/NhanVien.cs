@@ -36,7 +36,8 @@ public partial class NhanVien
     [Column("MaDN")]
     [StringLength(50)]
     public string MaDn { get; set; } = null!;
-
+    public bool status { get; set; }
+    public bool isAdmin { get; set; }
     [StringLength(50)]
     public string MatKhau { get; set; } = null!;
 

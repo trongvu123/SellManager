@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AdminDashboardPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="CreateOrderWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -30,6 +33,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AdminDashboardPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="CreateOrderWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

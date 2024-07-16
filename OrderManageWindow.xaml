@@ -35,8 +35,8 @@
         </DataGrid>
         <TextBlock HorizontalAlignment="Left" Margin="573,0,0,0" TextWrapping="Wrap" Text="Số lượng hóa đơn" VerticalAlignment="Center" FontSize="16"/>
         <TextBox x:Name="txtSlHoadon" HorizontalAlignment="Left" Margin="712,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="53" Height="21"/>
-        <TextBlock HorizontalAlignment="Left" Margin="565,397,0,0" TextWrapping="Wrap" Text="Số lượng mặt hàng" VerticalAlignment="Top" FontSize="16"/>
-        <TextBox x:Name="txtSlMathang" HorizontalAlignment="Left" Margin="718,397,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="47" Height="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="565,409,0,0" TextWrapping="Wrap" Text="Số lượng mặt hàng" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="txtSlMathang" HorizontalAlignment="Left" Margin="728,408,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="47" Height="24"/>
 
     </Grid>
 </Page>

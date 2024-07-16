@@ -1,0 +1,39 @@
+﻿<Window x:Class="SellManager.AdminDashboardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SellManager"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="AdminDashboardPage">
+
+    <Grid>
+        <DataGrid x:Name="DgData" Margin="-10,0,10,130" Loaded="DataGrid_Loaded" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="MãNV" Width="*" Binding="{Binding MaNv}"/>
+                <DataGridTextColumn Header="Tên" Width="*" Binding="{Binding Ho}"/>
+                <DataGridTextColumn Header="Địa chỉ" Width="*" Binding="{Binding DiaChi}"/>
+                <DataGridTextColumn Header="Điện thoại" Width="*" Binding="{Binding DienThoai}"/>
+                <DataGridComboBoxColumn Header="Trạng thái" Width="*" 
+                        SelectedValueBinding="{Binding status}"
+                        DisplayMemberPath="Text"
+                        SelectedValuePath="Value">
+                    <DataGridComboBoxColumn.ElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.StatusOptions}"/>
+                        </Style>
+                    </DataGridComboBoxColumn.ElementStyle>
+                    <DataGridComboBoxColumn.EditingElementStyle>
+                        <Style TargetType="ComboBox">
+                            <Setter Property="ItemsSource" Value="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.StatusOptions}"/>
+                        </Style>
+                    </DataGridComboBoxColumn.EditingElementStyle>
+                </DataGridComboBoxColumn>
+                <!--<DataGridComboBoxColumn />-->
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Content="Lưu" HorizontalAlignment="Left" Margin="614,336,0,0" VerticalAlignment="Top" Height="30" Width="88" Click="Button_Click"/>
+
+    </Grid>
+</Window>
